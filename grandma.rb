@@ -2,7 +2,7 @@
 def speak_to_grandma(spoken)
   if spoken == "I LOVE YOU GRANDMA!"
     return "I LOVE YOU TOO PUMPKIN!"
-  elseif spoken != spoken.upcase
+  elsif spoken != spoken.upcase
     return "HUH?! SPEAK UP, SONNY!"
   end
 end
